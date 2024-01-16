@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color-light: #ffffff;
+    --color-blue: #2b4eff;
+    --color-green: #03d819;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.navbar-brand {
+    font-size: 4vmin;
+    display: flex;
+    justify-content: center;
+    color: var(--color-green);
+}
+
+.navbar-brand:hover {
+    text-shadow: 0 0 0.2em rgb(0, 98, 13), 0 0 0.2em rgb(16, 9, 218),
+        0 0 0.2em rgb(4, 0, 111);
+    transition: 1s all;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+
+.container2 {
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 2px;
+    background-image: url(/img/casal.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    filter: opacity(97%);
+    filter: brightness(94%);
+}
+
+.container2 h2 {
+    color: var(--color-green);
+    font-style: italic;
+    font-size: 8vmin;
+    display: flex;
+    justify-content: start;
+    text-shadow: 0 0 0.2em rgb(0, 142, 64), 0 0 0.2em rgb(16, 0, 121),
+        0 0 0.2em rgb(83, 63, 214);
+}
+
+.container2 p {
+    font-weight: 200;
+    margin: 1.25rem;
+    line-height: 4rem;
+    font-size: 5vmin;
+    text-shadow: 0 0 0.2em rgb(39, 146, 52), 0 0 0.2em rgb(34, 19, 126);
+    color: #ffff;
+}
+
+.box h2 {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem;
+}
+
+.box p {
+    max-width: 50%;
+    padding: 3.5rem;
+    text-shadow: 0 0 0.2em rgb(121, 119, 255), 0 0 0.2em rgb(16, 0, 124),
+        0 0 0.2em rgb(51, 0, 122);
+}
+
+.box a {
+    font-size: 3vmin;
+    color: var(--color-blue);
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    padding: 1vmax 3.5rem;
+    border-radius: 1rem;
+    color: var(--color-light);
+    text-decoration: none;
+    margin: 10vmax;
+    transition: 1s;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button:hover {
+    font-size: 3vmin;
+    background-color: transparent;
+}
+
+.box hover {
+    background-color: transparent;
+}
+
+.infos {
+    min-width: 100%;
+    min-height: 700px;
+    border: 0px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg,
+            rgba(2, 0, 36, 1) 5%,
+            rgba(9, 9, 121, 1) 45%,
+            rgb(0, 221, 255) 95%)
+}
+
+.infos h3 {
+    font-size: 5vmin;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.infos {
+    font-size: 4vmin;
+    padding: 20vmin;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.infos img {
+    min-width: 15vmin;
+    min-height: 10vmin;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15vmin;
+}
+
+.container4 {
+    min-width: 100%;
+    min-height: 500px;
+    border: 0.25vmin solid #ccc;
+    display: flex;
+    flex-wrap: row;
+    background-color: #edededc2;
+}
+
+.app {
+    font-size: 5vmin;
+    color: #000000;
+    text-align: center;
+    margin: 8vmin auto;
+}
+
+/* redes sociais */
+.RD {
+    align-items: center;
+
+}
+
+.RD h3 {
+    font-size: 4vmin;
+    color: #000000;
+    margin: 7vmin auto;
+}
+
+.RD a {
+    display: inline-flex;
+    width: 8vmin;
+    height: 8vmin;
+    background: var(--color-green);
+    color: white;
+    margin: 0 6px;
+    border-radius: 10vmin;
+    justify-content: center;
+    transition: 0.4;
+    font-size: 5vmin;
+    align-items: center;
+    text-decoration: none;
+}
+
+.RD a:hover {
+    background: #0c006b;
+    transform: scale(1.7) rotate(30deg);
+    transition: 0.7s all;
+}
+
+/* final da página */
+.footer {
+    font-size: 5vmin;
+    color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000000;
+    padding: 4vmin;
+}
+
+/* entrar */
+.nav-link2 {
+    color: #66ff008e;
+    margin: 2vmin;
+    font-size: 4vmin;
+    padding: 5vmin;
+}
+
+.nav-link2:hover {
+    color: #00fe1e;
+    transition: 0.75s;
+}
+
+/* cadastre-se */
+.nav-link3 {
+    font-size: 4vmin;
+    border: 2.5px solid #00ff1a;
+    padding: 4px 3rem;
+    border-radius: 3vmin;
+    color: var(--color-light);
+    text-decoration: none;
+    text-align: center;
+    margin: 0.5vmin;
+    background: linear-gradient(90deg, #110175, transparent) #00a87b;
+}
+
+.nav-link3:hover {
+    background-color: #00ff26;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em rgb(176, 119, 255);
+    transition: 0.75s all;
+}
+
+.navbar-nav {
+    font-size: 2.75vmin;
+}
